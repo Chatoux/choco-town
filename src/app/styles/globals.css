@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.bg-[#f5e7d1] {
+  background-color: #f5e7d1;
+}
+
+.text-[#5a3d2b] {
+  color: #5a3d2b;
+}
+
+.bg-[#5a3d2b] {
+  background-color: #5a3d2b;
+}
+
+.hover\:bg-[#d1835a]:hover {
+  background-color: #d1835a;
+}
+
+@media (min-width: 640px) {
+  /* Add any specific styles for larger devices */
+}
